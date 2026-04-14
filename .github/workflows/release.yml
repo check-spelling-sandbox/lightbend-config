@@ -5,7 +5,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    if: github.repository == 'lightbend/config'
+    # if: github.repository == 'lightbend/config'
     steps:
       - name: Checkout
         uses: actions/checkout@v6
